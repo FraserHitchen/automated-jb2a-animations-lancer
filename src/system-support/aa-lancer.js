@@ -8,7 +8,7 @@ export function systemHooks() {
 
         function extractItemId(content) {
             try {
-                return $(content).attr("data-item-id");
+                return $(content).attr("data-id");
             } catch (exception) {
                 console.log("COULD NOT GET ITEM ID")
                 return null;
